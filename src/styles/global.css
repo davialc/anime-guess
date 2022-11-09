@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	overflow: hidden;
+}
+
+.radial-filter {
+	width: 100vw;
+	min-height: 100vh;
+	position: fixed;
+	background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.7));
+	z-index: 1;
+}
+
+.slider {
+	@apply bg-slate-800 w-28 min-h-[150px] flex justify-center items-center rounded-lg;
+}
